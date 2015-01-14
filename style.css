@@ -1,3 +1,53 @@
+/* header */
+body {
+	margin:0;
+	font-family: gill sans;
+	font-size: 16px;
+}
+
+header {
+	background: #F2F2F3;
+	color: #1B1D1D;
+	padding: 15px 15px 0 15px;
+}
+
+a:link {
+	color: #0489B1;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff5050;
+	text-decoration: none;
+}
+
+header h1 {
+	margin: 0;
+	display: inline;
+}
+
+nav ul{
+	margin:0;
+	padding: 0 0 0 15px;
+	display: inline;
+}
+
+nav ul li {
+	background: white;
+	color: #2595B7;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+}
+
+nav ul li a {
+	color: 2595B7;
+}
+
+
+
+
+/* circle chart*/
 small
 {
     display: block;
