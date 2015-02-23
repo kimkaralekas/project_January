@@ -37,6 +37,7 @@ li {
 .drop {
   overflow: hidden;
   list-style: none;
+  color: #3177a3;
   position: absolute;
   padding: 0;
   width: 100%;
