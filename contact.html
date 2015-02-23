@@ -3,6 +3,40 @@
 	<title></title>
 </head>
 <body>
+	<p style="border: 3px solid red">
+  I'm boxed in
+	</p>
+
+<p><a href=".">Normal link</a></p>
+<p><a href="." style="color: green">Green link</a></p>
+
+<p>And if you go chasing
+  <span class="animal">rabbits</span></p>
+<p>And you know you're going to fall</p>
+<p>Tell 'em a <span class="character">hookah smoking
+  <span class="animal">caterpillar</span></span></p>
+<p>Has given you the call</p>
+
+
+<p style="text-align: center">
+  <img src="img/cat.png" style="position: relative">
+</p>
+<script>
+  var cat = document.querySelector("img");
+  var angle = 0, lastTime = null;
+  function animate(time) {
+    if (lastTime != null)
+      angle += (time - lastTime) * 0.001;
+    lastTime = time;
+    cat.style.top = (Math.sin(angle) * 20) + "px";
+    cat.style.left = (Math.cos(angle) * 200) + "px";
+    requestAnimationFrame(animate);
+  }
+  requestAnimationFrame(animate);
+</script>
+
+
+
 
 </body>
 </html>
